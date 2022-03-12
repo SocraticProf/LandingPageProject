@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.A {
+    display: flex;
+    flex-direction: column;
+}
+
+.AB {
+    display: flex;
+}
