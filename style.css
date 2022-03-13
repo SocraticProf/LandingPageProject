@@ -4,6 +4,10 @@ body {
     flex-direction: column;
 }
 
+.main {
+    flex: 1 1 auto;
+}
+
 .A {
     display: flex;
     flex-direction: column;
@@ -32,5 +36,27 @@ body {
 
 .AB {
     display: flex;
-    color: red;
+}
+
+.ABAA {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.ABAB {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.C {
+    background-color: #E5E7EB;
+}
+
+
+.F {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
 }
