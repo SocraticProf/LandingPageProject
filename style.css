@@ -36,6 +36,10 @@ body {
 
 .AB {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 1;
+    flex-grow: 1;
 }
 
 .ABAA {
@@ -47,6 +51,22 @@ body {
 .ABAB {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.ABB {
+   height: 50vh;
+   width: 50%;
+   border: 10px solid red;
+   display: flex;
+   justify-content: center;
+} 
+
+.ABB img {
+    border-radius: 10%;
+    width: 50vw;
+    object-position: 0 55%;
+    object-fit: cover;
+    padding: 20px;
 }
 
 
