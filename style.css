@@ -69,6 +69,50 @@ body {
     padding: 20px;
 }
 
+.B {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid rebeccapurple;
+}
+
+.BA {
+    font-size: 18px;
+    color: red;
+    padding: 25px;
+}
+
+.BB {
+    display: flex;
+    border: 10px solid blue;
+    justify-content: space-around;
+}
+
+.BBbox{
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    border: 10px solid orange;
+}
+
+.BBimage {
+    display:flex;
+    justify-items: center;
+    border: 10px solid yellow;
+    height: 30vh;
+}
+
+.BBimage img {
+    border-radius: 20%;
+    width: 15vw;
+    object-fit: cover;
+    padding: 8px;
+}
+
+
+.BBtext {
+    color: green
+}
 
 .C {
     background-color: #E5E7EB;
