@@ -116,6 +116,24 @@ body {
 
 .C {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 10% 20% 10% 20%;
+    border: 10px solid lightcyan;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.attribution {
+    text-decoration: none;
+    text-align: right;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 800;
 }
 
 
@@ -124,3 +142,4 @@ body {
     color: #E5E7EB;
     font-size: 18px;
 }
+
